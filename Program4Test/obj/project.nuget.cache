@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "zRE//geTwEBLI+GMZARyZCDmWL5J0Vt88cfIsUMRNVSE42maHjVnMBZRUzK7FxQ/8ZpT5rJklIsHN4xKAmxDrg==",
+  "success": true,
+  "projectFilePath": "D:\\Ali\\Documents\\All Projects\\Visual Studio 2019\\Repos\\VeriEasi\\.NETKuCoinAPI\\Program4Test\\Program4Test.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Ali\\.nuget\\packages\\cryptoexchange.net\\5.1.12\\cryptoexchange.net.5.1.12.nupkg.sha512",
+    "C:\\Users\\Ali\\.nuget\\packages\\kucoin.net\\4.0.12\\kucoin.net.4.0.12.nupkg.sha512",
+    "C:\\Users\\Ali\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\3.1.0\\microsoft.extensions.dependencyinjection.abstractions.3.1.0.nupkg.sha512",
+    "C:\\Users\\Ali\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\3.1.0\\microsoft.extensions.logging.abstractions.3.1.0.nupkg.sha512",
+    "C:\\Users\\Ali\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}

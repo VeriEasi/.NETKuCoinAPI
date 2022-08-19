@@ -1,0 +1,123 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "Program4Test/1.0.0": {
+        "dependencies": {
+          "KuCoinAPI": "1.0.0"
+        },
+        "runtime": {
+          "Program4Test.dll": {}
+        }
+      },
+      "CryptoExchange.Net/5.1.12": {
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "3.1.0",
+          "Microsoft.Extensions.Logging.Abstractions": "3.1.0",
+          "Newtonsoft.Json": "13.0.1"
+        },
+        "runtime": {
+          "lib/netstandard2.1/CryptoExchange.Net.dll": {
+            "assemblyVersion": "5.1.12.0",
+            "fileVersion": "5.1.12.0"
+          }
+        }
+      },
+      "Kucoin.Net/4.0.12": {
+        "dependencies": {
+          "CryptoExchange.Net": "5.1.12"
+        },
+        "runtime": {
+          "lib/netstandard2.1/Kucoin.Net.dll": {
+            "assemblyVersion": "4.0.12.0",
+            "fileVersion": "4.0.12.0"
+          }
+        }
+      },
+      "Microsoft.Extensions.DependencyInjection.Abstractions/3.1.0": {
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
+            "assemblyVersion": "3.1.0.0",
+            "fileVersion": "3.100.19.56504"
+          }
+        }
+      },
+      "Microsoft.Extensions.Logging.Abstractions/3.1.0": {
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.Logging.Abstractions.dll": {
+            "assemblyVersion": "3.1.0.0",
+            "fileVersion": "3.100.19.56504"
+          }
+        }
+      },
+      "Newtonsoft.Json/13.0.1": {
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "assemblyVersion": "13.0.0.0",
+            "fileVersion": "13.0.1.25517"
+          }
+        }
+      },
+      "KuCoinAPI/1.0.0": {
+        "dependencies": {
+          "CryptoExchange.Net": "5.1.12",
+          "Kucoin.Net": "4.0.12"
+        },
+        "runtime": {
+          "KuCoinAPI.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Program4Test/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CryptoExchange.Net/5.1.12": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-vY9YTPjMZUJpi+vH/l2RSfuZ2qCKcFe2nZ5Q2C19jTeIZLC6WvDZod2Q4RsGbX2yDmwDaJSW32Xu/DAEjxMb9g==",
+      "path": "cryptoexchange.net/5.1.12",
+      "hashPath": "cryptoexchange.net.5.1.12.nupkg.sha512"
+    },
+    "Kucoin.Net/4.0.12": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-iEchKu0VUZtIoo3S4lLRbR+Wnb4jOT4V6mWlbyTR2nPPEtg3SlvG5rbEFVQW9pXCer27qMFFoNX55zvhcBdlOA==",
+      "path": "kucoin.net/4.0.12",
+      "hashPath": "kucoin.net.4.0.12.nupkg.sha512"
+    },
+    "Microsoft.Extensions.DependencyInjection.Abstractions/3.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-44rDtOf1JXXAFpNT2EXMExaDm/4OJ2RXOL9i9lE4bK427nzC7Exphv+beB6IgluyE2GIoo8zezTStMXI7MQ8WA==",
+      "path": "microsoft.extensions.dependencyinjection.abstractions/3.1.0",
+      "hashPath": "microsoft.extensions.dependencyinjection.abstractions.3.1.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Logging.Abstractions/3.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-jjo4YXRx6MIpv6DiRxJjSpl+sPP0+5VW0clMEdLyIAz44PPwrDTFrd5PZckIxIXl1kKZ2KK6IL2nkt0+ug2MQg==",
+      "path": "microsoft.extensions.logging.abstractions/3.1.0",
+      "hashPath": "microsoft.extensions.logging.abstractions.3.1.0.nupkg.sha512"
+    },
+    "Newtonsoft.Json/13.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ppPFpBcvxdsfUonNcvITKqLl3bqxWbDCZIzDWHzjpdAHRFfZe0Dw9HmA0+za13IdyrgJwpkDTDA9fHaxOrt20A==",
+      "path": "newtonsoft.json/13.0.1",
+      "hashPath": "newtonsoft.json.13.0.1.nupkg.sha512"
+    },
+    "KuCoinAPI/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

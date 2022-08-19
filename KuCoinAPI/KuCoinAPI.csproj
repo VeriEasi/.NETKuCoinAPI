@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="CryptoExchange.Net" Version="5.1.12" />
+    <PackageReference Include="Kucoin.Net" Version="4.0.12" />
+  </ItemGroup>
+
+</Project>
