@@ -1,8 +1,8 @@
 {
   "version": 3,
   "targets": {
-    "net5.0": {
-      "CryptoExchange.Net/5.1.12": {
+    "net6.0": {
+      "CryptoExchange.Net/5.2.2": {
         "type": "package",
         "dependencies": {
           "Microsoft.Extensions.DependencyInjection.Abstractions": "3.1.0",
@@ -10,62 +10,82 @@
           "Newtonsoft.Json": "13.0.1"
         },
         "compile": {
-          "lib/netstandard2.1/CryptoExchange.Net.dll": {}
+          "lib/netstandard2.1/CryptoExchange.Net.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/netstandard2.1/CryptoExchange.Net.dll": {}
+          "lib/netstandard2.1/CryptoExchange.Net.dll": {
+            "related": ".xml"
+          }
         }
       },
-      "Kucoin.Net/4.0.12": {
+      "Kucoin.Net/4.1.0": {
         "type": "package",
         "dependencies": {
-          "CryptoExchange.Net": "5.1.12"
+          "CryptoExchange.Net": "5.2.2"
         },
         "compile": {
-          "lib/netstandard2.1/Kucoin.Net.dll": {}
+          "lib/netstandard2.1/Kucoin.Net.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/netstandard2.1/Kucoin.Net.dll": {}
+          "lib/netstandard2.1/Kucoin.Net.dll": {
+            "related": ".xml"
+          }
         }
       },
       "Microsoft.Extensions.DependencyInjection.Abstractions/3.1.0": {
         "type": "package",
         "compile": {
-          "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {}
+          "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {}
+          "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
+            "related": ".xml"
+          }
         }
       },
       "Microsoft.Extensions.Logging.Abstractions/3.1.0": {
         "type": "package",
         "compile": {
-          "lib/netstandard2.0/Microsoft.Extensions.Logging.Abstractions.dll": {}
+          "lib/netstandard2.0/Microsoft.Extensions.Logging.Abstractions.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/netstandard2.0/Microsoft.Extensions.Logging.Abstractions.dll": {}
+          "lib/netstandard2.0/Microsoft.Extensions.Logging.Abstractions.dll": {
+            "related": ".xml"
+          }
         }
       },
       "Newtonsoft.Json/13.0.1": {
         "type": "package",
         "compile": {
-          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
         }
       }
     }
   },
   "libraries": {
-    "CryptoExchange.Net/5.1.12": {
-      "sha512": "vY9YTPjMZUJpi+vH/l2RSfuZ2qCKcFe2nZ5Q2C19jTeIZLC6WvDZod2Q4RsGbX2yDmwDaJSW32Xu/DAEjxMb9g==",
+    "CryptoExchange.Net/5.2.2": {
+      "sha512": "X7s1a75oLoQxgjt3vYCydvwwv5G9MIwq2FTtS/+eFfGZArjBul6t56wEtIBAnS+QIh0bsXSoZ7MGVYWHQq/0dw==",
       "type": "package",
-      "path": "cryptoexchange.net/5.1.12",
+      "path": "cryptoexchange.net/5.2.2",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "cryptoexchange.net.5.1.12.nupkg.sha512",
+        "cryptoexchange.net.5.2.2.nupkg.sha512",
         "cryptoexchange.net.nuspec",
         "lib/netstandard2.0/CryptoExchange.Net.dll",
         "lib/netstandard2.0/CryptoExchange.Net.xml",
@@ -73,15 +93,15 @@
         "lib/netstandard2.1/CryptoExchange.Net.xml"
       ]
     },
-    "Kucoin.Net/4.0.12": {
-      "sha512": "iEchKu0VUZtIoo3S4lLRbR+Wnb4jOT4V6mWlbyTR2nPPEtg3SlvG5rbEFVQW9pXCer27qMFFoNX55zvhcBdlOA==",
+    "Kucoin.Net/4.1.0": {
+      "sha512": "bW8GGxK/3/YUt/Jk++TkDn40wRVR8WPJHAgUCUTyNlmpZZzYMkw/r2BIeDgXXZ7c7luyS/NCCUGhlLm1Zo6o8g==",
       "type": "package",
-      "path": "kucoin.net/4.0.12",
+      "path": "kucoin.net/4.1.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "icon.png",
-        "kucoin.net.4.0.12.nupkg.sha512",
+        "kucoin.net.4.1.0.nupkg.sha512",
         "kucoin.net.nuspec",
         "lib/netstandard2.0/Kucoin.Net.dll",
         "lib/netstandard2.0/Kucoin.Net.xml",
@@ -146,13 +166,13 @@
     }
   },
   "projectFileDependencyGroups": {
-    "net5.0": [
-      "CryptoExchange.Net >= 5.1.12",
-      "Kucoin.Net >= 4.0.12"
+    "net6.0": [
+      "Kucoin.Net >= 4.1.0"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Ali\\.nuget\\packages\\": {}
+    "C:\\Users\\Ali\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
@@ -163,20 +183,25 @@
       "packagesPath": "C:\\Users\\Ali\\.nuget\\packages\\",
       "outputPath": "D:\\Ali\\Documents\\All Projects\\Visual Studio 2019\\Repos\\VeriEasi\\.NETKuCoinAPI\\KuCoinAPI\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
         "C:\\Users\\Ali\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
-        "net5.0"
+        "net6.0"
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
-        "net5.0": {
-          "targetAlias": "net5.0",
+        "net6.0": {
+          "targetAlias": "net6.0",
           "projectReferences": {}
         }
       },
@@ -187,16 +212,12 @@
       }
     },
     "frameworks": {
-      "net5.0": {
-        "targetAlias": "net5.0",
+      "net6.0": {
+        "targetAlias": "net6.0",
         "dependencies": {
-          "CryptoExchange.Net": {
-            "target": "Package",
-            "version": "[5.1.12, )"
-          },
           "Kucoin.Net": {
             "target": "Package",
-            "version": "[4.0.12, )"
+            "version": "[4.1.0, )"
           }
         },
         "imports": [
@@ -205,7 +226,8 @@
           "net47",
           "net471",
           "net472",
-          "net48"
+          "net48",
+          "net481"
         ],
         "assetTargetFallback": true,
         "warn": true,
@@ -214,7 +236,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.411\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   }
